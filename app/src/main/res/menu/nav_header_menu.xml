@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miInpox"
+        android:icon="@drawable/ic_inpox"
+        android:title="Inpox"/>
+    <item
+        android:id="@+id/miSent"
+        android:icon="@drawable/ic_send"
+        android:title="Sent"/>
+    <item
+        android:id="@+id/miStared"
+        android:icon="@drawable/ic_stared"
+        android:title="Stared"/>
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/miArchive"
+            android:icon="@drawable/ic_archive"
+            android:title="Archive"/>
+        <item
+            android:id="@+id/miLogOut"
+            android:icon="@drawable/ic_logout"
+            android:title="Log out"/>
+</group>
+</menu>

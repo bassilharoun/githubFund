@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miTodoList"
+        android:title="TodoList"
+        android:icon="@drawable/ic_todolist"/>
+
+    <item
+        android:id="@+id/miResturant"
+        android:title="Resturant"
+        android:icon="@drawable/ic_resturant"/>
+
+    <item
+        android:id="@+id/miMain"
+        android:title="Main"
+        android:icon="@drawable/ic_main"/>
+
+    <item
+        android:id="@+id/miCalc"
+        android:title="Calculator"
+        android:icon="@drawable/ic_calculate"/>
+
+
+</menu>
