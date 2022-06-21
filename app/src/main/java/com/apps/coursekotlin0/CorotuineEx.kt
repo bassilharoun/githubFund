@@ -20,6 +20,9 @@ class CorotuineEx : AppCompatActivity() {
             val result2 = async { doNetworkCall2() }
             Log.d(tag,"Result 1 equal to : ${result1.await()}")
             Log.d(tag,"Result 2 equal to : ${result2.await()}")
+            println("This is out first commit")
+            println("This is our new commit")
+            println("third commit")
         }
 
 
